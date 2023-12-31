@@ -1,0 +1,82 @@
+/* Media query for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    /* Adjusting padding for the header navbar brand */
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+      /* Adjusting styles for a specific panel within section-1 */
+
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+      /* Adjusting background position for section-2 cover */
+
+    .section-2 .cover {
+      background-position: -25vmin -10vmin;
+    }
+      /* Adjusting dimensions for rectangles in the 'numbers' section */
+
+    .numbers .rect {
+      width: 10rem;
+      height: 8rem;
+    }
+      /* Adjusting font size for h1 within rectangles in the 'numbers' section */
+
+    .numbers .rect h1 {
+      font-size: 2rem;
+    }
+    /* Adjusting height and padding for section-3 */
+
+    .section-3 {
+      height: inherit;
+      padding: 10vmin !important;
+    }
+      /* Adjusting padding for h1 within section-3 */
+
+    .section-3 .row h1 {
+      padding: 6vmin 4vmin;
+    }
+    /* Adjusting text alignment for platform in section-3 */
+
+    .section-3 .platform .col-md-6 {
+      text-align: center !important;
+    }
+      /* Adjusting font size for desktop icon in section-3 */
+
+    .section-3 .desktop i {
+      font-size: 8vmin;
+    }
+      /* Adjusting padding for carousel items in section-4 */
+
+    .section-4 .carousel-item {
+      padding-left: 0.6rem;
+    }
+      /* Adjusting margin-top for specific column in the footer */
+
+    footer .row .col-md-2 {
+      margin-top: 8vmin;
+    }
+  }
+  
+/* Media query for screens with a maximum width of 375px */
+
+  
+  @media only screen and (max-width: 375px) {
+      /* Adjusting width for cards in section-4 */
+
+    .section-4 .card {
+      width: 18em;
+    }
+  }
+  /* Media query for screens with a maximum width of 320px */
+
+  @media only screen and (max-width: 320px) {
+      /* Adjusting margin-left for carousel-inner in section-4 */
+
+    .section-4 .carousel-inner {
+      margin-left: -4vmin;
+    }
+  }
+  

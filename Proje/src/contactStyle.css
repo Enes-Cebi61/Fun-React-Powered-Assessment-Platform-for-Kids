@@ -1,0 +1,28 @@
+/* Styling for h2 elements inside the Contact class */
+
+.Contact h2{
+    color: #fff;
+  }
+  /* Styling for the map container with an ID of 'map' */
+
+#map {
+    height: 450px;
+}
+/* Media query for screens with a minimum width of 768 pixels */
+
+@media (min-width: 768px) { 
+        /* Adjusting the height of .card-img-top within the media query */
+
+    .card-img-top {
+        height: 32vh;
+    }
+    /* Adjusting the height of the map container within the media query */
+
+    #map {
+        height: 100%;
+    }
+ }
+ /* Overriding the default background color for elements with the .bg-dark class */
+.bg-dark{
+    background: #273543!important;
+}

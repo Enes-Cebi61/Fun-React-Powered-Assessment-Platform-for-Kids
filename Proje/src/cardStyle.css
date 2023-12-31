@@ -1,0 +1,156 @@
+/* Importing the Raleway font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+/* Styling for the row container */
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/* Styling for the image container */
+.image{
+	background: #50A7FF;
+	position: relative;
+	flex: 1;
+	max-width: 460px;
+	height: 300px;
+	margin: 20px;
+	overflow: hidden;
+}
+/* Styling for the image inside the container */
+
+.image img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
+}
+/* Hover effect for the image */
+
+.image:hover img{
+	opacity: 1;
+}
+/* Styling for the details overlay */
+
+.image .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+/* Styling for the heading inside the details overlay */
+
+.image .details h2{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 70px;
+	transition: 0.4s;
+	transition-property: transform;
+}
+/* Styling for the span inside the heading */
+
+.image .details h2 span{
+	font-weight: 900;
+}
+/* Styling for the paragraph inside the details overlay */
+
+.image:hover .details h2{
+	transform: translateY(-30px);
+}
+/* Hover effect for the paragraph */
+
+.image .details p{
+	margin: 30px 30px 0 30px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	opacity: 0;
+	transition: 0.6s;
+	transition-property: opacity, transform;
+}
+/* Hover effect for the paragraph */
+
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}
+/* Styling for the 'more' section at the bottom */
+
+.more{
+	position: absolute;
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	bottom: -60px;
+	transition: 0.6s;
+	transition-property: bottom;
+}
+/* Hover effect for the 'more' section */
+
+.image:hover .more{
+	bottom: 0;
+	
+}
+/* Styling for the 'read more' link */
+
+.more .read-more{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+/* Styling for the span inside the 'read more' link */
+
+.more .read-more span{
+	font-weight: 900;
+}
+/* Styling for the icon links in the 'more' section */
+
+.more .icon-links i{
+	color: #000;
+	font-size: 20px;
+	font-weight: bolder;
+}
+/* Styling for the icon links, excluding the last one */
+
+.more .icon-links a:not(:last-child) i{
+	margin-right: 20px;
+}
+/* Styling for the paragraph inside the details overlay (specific to the paragraph color) */
+
+.details p {
+	color: #fff;
+}
+
+
+/* Responsive CSS for larger screens */
+
+@media (max-width: 1080px){
+	.image{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+/* Responsive CSS for smaller screens */
+
+@media (max-width: 400px){
+		/* Adjustments for smaller screens */
+		
+	.image .details p{
+		font-size: 16px;
+	}
+
+	.more .read-more, .more .icon-links a i{
+		font-size: 18px;
+	}
+}

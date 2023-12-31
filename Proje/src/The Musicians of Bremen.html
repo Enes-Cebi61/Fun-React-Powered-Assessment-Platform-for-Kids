@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, viewport, and compatibility -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Title of the website -->
+  <title>Joyful Journeys  </title>
+  <link rel="icon" type="image/x-icon" href="../assets/musiciansanBremen2.jpg">
+  <!-- External CSS and font-awesome stylesheets -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+  
+    crossorigin="anonymous">
+      <!-- Custom stylesheets for the website -->
+
+  <link rel="stylesheet" href="./Style.css" />
+  <link rel="stylesheet" href="./mobile-style.css">
+  <link rel="stylesheet" href="cardStyle.css">
+  <link rel="stylesheet" href="AntAndGrasshopperStyle.css">
+</head>
+
+<body>
+  <!-- Header section with a navigation bar and a full-screen video background -->
+
+  <header>
+    
+    <div class="container-fluid p-0">
+            <!-- Navigation bar with links to different sections of the website -->
+
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-book-reader fa-2x mx-3"></i>Joyful Journeys</a>
+                  <!-- Navbar toggler for responsive design -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+         <!-- Navigation Bar Section -->
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+              <!-- Auto margin on the left for flexible alignment -->
+
+          <div class="mr-auto"></div>
+              <!-- Navigation Links -->
+
+          <ul class="navbar-nav">
+                    <!-- Home Link -->
+
+            <li class="nav-item active">
+              <a class="nav-link" href="Index.html">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+                    <!-- About Us Link -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About Us</a>
+            </li>
+                    <!-- Dropdown for Books -->
+
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">Books</a>
+                                <!-- Dropdown Content for Books -->
+
+                <div class="dropdown-content">
+                  <a href="AntAndGrasshopper.html">The Grasshopper and the Ant</a>
+                  <a href="The-Golden-Egg-Laying-Hen.html">The Golden Egg-Laying Hen</a>
+                  <a href="The-Ugly-Duckling.html">The Ugly Duckling </a>
+                  <a href="The Musicians of Bremen.html">The Musicians of Bremen </a>
+                  <a href="The Little Match Girl.html">The Little Match Girl</a>
+                  <a href="The Crow and the Fox.html">The Crow and the Fox </a>
+                </div>
+              </div>
+            </li>
+                    <!-- Dropdown for Exams -->
+
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">Exams</a>
+                                <!-- Dropdown Content for Exams -->
+                <div class="dropdown-content">
+                  <a href="https://transcendent-cactus-598805.netlify.app/" target="_blank">The Grasshopper and the Ant</a>
+                  <a href="https://6585d65a1eb607020ac8b5a8--luminous-dango-db83ce.netlify.app/" target="_blank">The Golden Egg Laying Hen</a>     
+                  <a href="https://6585d5ae7e948ffd93d02f1b--transcendent-tiramisu-f7c0f5.netlify.app/" target="_blank">The Ugly Duckling</a>
+                  <a href="https://6585d4fc58d63afce020bd05--lucent-pudding-1ceb7b.netlify.app/" target="_blank">The Musicians of Bremen</a>
+                  <a href="https://6585d8efe2582cffdee19e5e--merry-lebkuchen-5b1bba.netlify.app/" target="_blank">The Little Match Girl</a>
+                  <a href="https://6585db3630feee049b92589b--aesthetic-rolypoly-e3a18c.netlify.app/" target="_blank">The Crow and the Fox</a>
+                </div>
+              </div>
+            </li>
+                    <!-- Contact Link -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Full-Screen Video Section -->
+    <div class="full-screen-video">
+          <!-- Background Video Element -->
+
+      <video autoplay muted loop id="background-video">
+                <!-- Source for the video -->
+
+        <source src="../assets/The Musicians of Bremen.mp4" type="video/mp4">
+        
+      </video>
+<!-- Overlay Section with Text and Media Player -->
+
+      <div class="overlay-text overlay-text2">
+  <!-- Image with a circular shape and padding -->
+
+        <div class="card-img-top card-imagetop2">
+          <img src="../assets/musiciansanBremen.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+        </div>
+          <!-- Card Body with Title and Audio Player -->
+
+        <div class="card-body">
+              <!-- Title of the story -->
+
+          <h3 class="card-title">The Musicians of Bremen
+    <!-- Paragraph containing the story description -->
+
+
+        </h3>
+          <p class="card-text">
+                  <!-- Card Body for the audio player -->
+
+            <div class="card-body">
+                      <!-- Audio player for the story -->
+
+              <audio controls>
+                <source
+                  src="../assets/Bremen Town Musicians.mp3"
+                  type="audio/mpeg"
+                />
+                Audio not supported
+              </audio>
+            </div>
+          </div>
+        </div>
+          <!-- End of Overlay Section -->
+
+            
+          </section>
+        </div>
+            </div>
+          </div>
+          </div>
+    </div>
+ 
+  </header>
+  <section class="section-1 mt-5 h-125vh">
+        <!-- Container for story content with a centered text -->
+    <div class="container text-center">
+      <div class="row" id="se1">
+                    <!-- Column for displaying an image related to the story -->
+
+        <div class="col-md-6 col-12 ">
+          <div class="pray">
+            <img src="../assets/musiciansanBremen2.jpg" alt="Pray" class="" />
+          </div>
+        </div>
+                    <!-- Column for presenting the story details -->
+
+        <div class="col-md-6 col-12 mb-5">
+                          <!-- Panel for aligning text to the left -->
+
+          <div class="panel text-left">
+                                <!-- Title of the story -->
+
+            <h1>The Musicians of Bremen </h1>
+                                <!-- Description of the story -->
+
+            <p>Once upon a time, an old farmer realized he had an old and feeble donkey that could no longer help plow the field. The donkey was too old to assist with the farm work. The farmer decided it was time to get rid of the donkey, so he set out to sell it.
+                As he journeyed on the road, he encountered a quartet of animals: a dog, a cat, a rooster, and a duck. These animals had also been cast out by their owners and were seeking their own destinies. Instead of selling the donkey, the farmer proposed an idea to them. He suggested that they form a music band in the town of Bremen and sing together.
+                The quartet accepted the offer and started their journey to Bremen together. Along the way, they reached the depths of the forest and decided to spend a night at the edge of the woods. Little did they know that this night would change their lives.
+                Encountering a group of bandits surrounding them, the animals had to find a solution. The rooster came up with an idea and quickly devised a plan. They attacked the bandits with all their might, creating a terrifying noise. Frightened, the bandits fled the scene, abandoning the forest.
+                The animals continued to live happily in the depths of the forest and never reached Bremen. However, what mattered more to them was that they found a life of friendship and singing together.
+                
+            </p>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Main Section for Quiz -->
+
+  <main>
+        <!-- Div for centering content -->
+
+    <div class="middle">
+              <!-- Heading for the quiz section -->
+
+      <h1 class="text-dark">Are you ready to test what you've learned, kids? </h1>
+              <!-- Link to the quiz with a button -->
+      <a href="https://6585d4fc58d63afce020bd05--lucent-pudding-1ceb7b.netlify.app/" target="_blank"><button class="btn btn1 text-bold text-dark mt-5">Quiz</button></a>
+    </div>
+  </main>
+  <!-- Footer Section -->
+
+  <footer>
+      <!-- Container for footer content -->
+
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+                    <!-- Column for About Us information -->
+
+        <div class="col-md-5 col-sm-5">
+                          <!-- Heading for About Us -->
+
+          <h4 class="text-light" id="aboutUs">About us</h4>
+          <p class="text-muted">We are a community that touches the imaginative world of children, offering a magical realm of storytelling that encourages fun learning. Our tales, filled with words brimming with love, reach the hearts of little ones, aiming to bring joy, learning, and color to their growing journey. With every sentence, we embark on a shared adventure, fostering a world where each story is an opportunity for discovery. Let's grow together in the enchanting world of our children's tales!
+
+          </p>
+    
+        </div>
+                    <!-- Column for Newsletter -->
+
+        <div class="col-md-5 col-sm-12">
+                          <!-- Heading for the Newsletter section -->
+
+          <h4 class="text-light">Newsletter</h4>
+          <p class="text-muted">Stay Updated</p>
+                          <!-- Form for users to input their email -->
+
+          <form class="form-inline">
+                                <!-- Input field for email -->
+
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                                           <!-- Button for submitting the form -->
+
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <a href="#">   <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+                    <!-- Column for Social Media Links -->
+
+        <div class="col-md-2 col-sm-12 social-media">
+                          <!-- Heading for Social Media -->
+
+          <h4 class="text-light">Follow Us</h4>
+                          <!-- Paragraph encouraging users to be social -->
+
+          <p class="text-muted">Let us be social</p>
+                          <!-- Social media icons with links -->
+
+          <div class="column text-light">
+           <a href="#"> <i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"> <i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- Copyright Section -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+              <!-- Copyright information -->
+
+    <p class="text-bold text-muted">© 2023 Copyright:</p>
+    
+  </div>
+  <!-- Copyright -->
+  </footer>
+<!-- JavaScript and Bootstrap Scripts -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
